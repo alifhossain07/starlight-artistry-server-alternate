@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the MongoDB server
-    await client.connect();
+    // await client.connect();
 
     // Select the 'craftDB' database and 'crafts' collection
     const database = client.db("craftDB");
